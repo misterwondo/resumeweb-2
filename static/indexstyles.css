@@ -50,7 +50,7 @@ header a {
     
     height: 90%;
     width: 100%;
-    background-image: linear-gradient(to top left,rgb(35, 37, 88), rgb(50, 26, 74));
+    background-image: linear-gradient(to bottom right,rgb(64, 28, 110), rgb(11, 1, 20));
     padding-top: 20vh;
 }
 
@@ -89,7 +89,7 @@ header a {
     width: 100%;
     position: relative;
     z-index: 10;
-    background-image: linear-gradient(to bottom right, rgb(104, 21, 104), rgb(2, 2, 77));
+    background-image: linear-gradient(to top right, rgb(56, 19, 116), rgb(4, 4, 75));
     box-shadow: 0 -0.5vh 50px black;
     background-color: white;
 }
@@ -152,6 +152,7 @@ header a {
 }
 
 #skillList img {
+    user-select: none;
     max-width: 12.5%;
     max-height: 70%;
     padding: 10px;
